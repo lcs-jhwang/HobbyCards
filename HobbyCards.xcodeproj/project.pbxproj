@@ -57,7 +57,6 @@
 		3156658D2D11B956008724EB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3156659C2D11C0D6008724EB /* Octagon.swift */,
 				3156658F2D11B956008724EB /* CardView.swift */,
 				315665962D11BAB8008724EB /* CardsTabView.swift */,
 				3156658C2D11B956008724EB /* Preview Assets.xcassets */,
@@ -70,6 +69,7 @@
 			children = (
 				315665902D11B956008724EB /* HobbyCardsApp.swift */,
 				3156659A2D11BBC7008724EB /* Model */,
+				3156659C2D11C0D6008724EB /* Octagon.swift */,
 				3156658D2D11B956008724EB /* Preview Content */,
 				3156658E2D11B956008724EB /* Assets.xcassets */,
 			);

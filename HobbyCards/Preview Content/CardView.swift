@@ -9,17 +9,26 @@ import SwiftUI
 
 struct CardView: View {
     
+    let pokemonToShow: Pokemon
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack{
+            Color.gray
+                .ignoresSafeArea()
+            ZStack(alignment: .top){
+                HStack{
+                    Spacer(minLength: pokemonToShow.aligimentLengthRight)
+                    Image(pokemonToShow.image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                    Spacer(minLength: pokemonToShow.aligimentLengthLeft)
+                }
+                Text(pokemonToShow.name)
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    CardView()
+    CardView(pokemonToShow: espeon)
 }
