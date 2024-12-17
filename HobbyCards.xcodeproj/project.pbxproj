@@ -13,6 +13,7 @@
 		315665952D11B956008724EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3156658E2D11B956008724EB /* Assets.xcassets */; };
 		315665972D11BAB8008724EB /* CardsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315665962D11BAB8008724EB /* CardsTabView.swift */; };
 		315665992D11BBA0008724EB /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315665982D11BB99008724EB /* Pokemon.swift */; };
+		3156659D2D11C0F9008724EB /* Octagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3156659C2D11C0D6008724EB /* Octagon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		315665902D11B956008724EB /* HobbyCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCardsApp.swift; sourceTree = "<group>"; };
 		315665962D11BAB8008724EB /* CardsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTabView.swift; sourceTree = "<group>"; };
 		315665982D11BB99008724EB /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		3156659C2D11C0D6008724EB /* Octagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Octagon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		3156658D2D11B956008724EB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				3156659C2D11C0D6008724EB /* Octagon.swift */,
 				3156658F2D11B956008724EB /* CardView.swift */,
 				315665962D11BAB8008724EB /* CardsTabView.swift */,
 				3156658C2D11B956008724EB /* Preview Assets.xcassets */,
@@ -77,8 +80,16 @@
 			isa = PBXGroup;
 			children = (
 				315665982D11BB99008724EB /* Pokemon.swift */,
+				3156659B2D11C0A9008724EB /* Shapes */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3156659B2D11C0A9008724EB /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			files = (
 				315665922D11B956008724EB /* CardView.swift in Sources */,
 				315665972D11BAB8008724EB /* CardsTabView.swift in Sources */,
+				3156659D2D11C0F9008724EB /* Octagon.swift in Sources */,
 				315665932D11B956008724EB /* HobbyCardsApp.swift in Sources */,
 				315665992D11BBA0008724EB /* Pokemon.swift in Sources */,
 			);
