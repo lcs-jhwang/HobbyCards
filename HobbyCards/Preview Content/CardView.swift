@@ -23,7 +23,20 @@ struct CardView: View {
                         .aspectRatio(contentMode: .fill)
                     Spacer(minLength: pokemonToShow.aligimentLengthLeft)
                 }
-                Text(pokemonToShow.name)
+                VStack{
+                    HStack{
+                        Spacer()
+                        Spacer()
+                        Text(pokemonToShow.name)
+                            .font(.title)
+                        Spacer()
+                        Text("hp")
+                        Text(pokemonToShow.hitPoints)
+                            .font(.largeTitle)
+                        Spacer()
+                        Spacer()
+                    }
+                }
             }
         }
     }
