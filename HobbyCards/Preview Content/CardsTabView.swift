@@ -10,8 +10,14 @@ import SwiftUI
 struct CardsTabView: View {
     
     var body: some View {
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            CardView(pokemonToShow: espeon)
+            CardView(pokemonToShow: umbreon)
+            CardView(pokemonToShow: sylveon)
+        }
+        .tabViewStyle(.page)
+        .ignoresSafeArea()
+
     }
 }
 

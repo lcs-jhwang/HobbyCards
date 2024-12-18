@@ -36,6 +36,24 @@ struct CardView: View {
                         Spacer()
                         Spacer()
                     }
+                    Spacer()
+                    Spacer()
+                    HStack{
+                        Image(pokemonToShow.type)
+                            .resizable()
+                            .frame(width: 30, height: 30)
+                        Text(pokemonToShow.ability)
+                            .font(.largeTitle)
+                        Text("30")
+                            .font(.title)
+                    }
+                    Text(pokemonToShow.abilityDescription)
+                    Spacer()
+                    Text("Evolves form")
+                    Text("Eevee")
+                    Octagon()
+                        .frame(width: 200, height: 200)
+                        
                 }
             }
         }

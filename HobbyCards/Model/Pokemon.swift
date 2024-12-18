@@ -25,6 +25,7 @@ let espeon = Pokemon(name: "Espeon", type: "Psychic", image: "Espeon", evolution
 let umbreon = Pokemon(name: "Umbreon", type: "Dark", image: "Umbreon", evolutionStage: 1, preEvolutionImage: "Eevee", ability: "Shadow Ball", abilityDescription: "This attack does 30 damage to your opponent", hitPoints: "200", aligimentLengthRight: -100, aligimentLengthLeft: 180)
 let sylveon = Pokemon(name: "Sylveon", type: "Fairy", image: "Sylveon", evolutionStage: 1, preEvolutionImage: "Eevee", ability: "Dazzling Gleam", abilityDescription: "This attack does 40 damage to your opponent", hitPoints: "200", aligimentLengthRight: 100, aligimentLengthLeft: 0)
 
+let pokemonsToShow = [sylveon, umbreon, espeon]
 
 #Preview {
     CardView(pokemonToShow: espeon)
