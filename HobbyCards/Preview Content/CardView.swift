@@ -47,12 +47,32 @@ struct CardView: View {
                         Text("30")
                             .font(.title)
                     }
+                    .padding(1)
+                    .frame(maxWidth: .infinity)
+                    .background (Color.white)
                     Text(pokemonToShow.abilityDescription)
-                    Spacer()
+                        .padding(1)
+                        .frame(maxWidth: .infinity)
+                        .background (Color.white)
                     Text("Evolves form")
-                    Text("Eevee")
+                        .font(.title)
+                        .padding(1)
+                        .background {
+                            RoundedRectangle(cornerRadius: 10)
+                                .fill(Color.white)
+                        }
+                    Text(pokemonToShow.preEvolutionImage)
+                        .font(.title)
+                        .padding(1)
+                        .frame(maxWidth: .infinity)
+                        .background (Color.yellow)
                     Octagon()
+                        .foregroundStyle(Color.green)
                         .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.white)
+                        .overlay(Image(pokemonToShow.preEvolutionImage)
+                            .resizable()
+                            .scaledToFit())
                         
                 }
             }
